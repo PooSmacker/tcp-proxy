@@ -24,7 +24,7 @@ Just copy and paste each step below.
 How to use:
 
 ```bash
-1.  edit your config to include the port you'd like to listen on,
+1.  edit your config to include the port you would like to listen on,
 your backend ip and your backend port.
 2.  to run type ./proxy config.json
 
