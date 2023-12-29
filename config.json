@@ -1,0 +1,12 @@
+{
+    "settings": {
+        "frontend_port": 10000
+    },
+    "proxied_host": {
+        "general_settings": {
+            "backend_ip": "82.165.230.58",
+            "backend_port": 1337,
+            "optional_note": "backend_port should be the port that the net backend is screened on"
+        }
+    }
+}
