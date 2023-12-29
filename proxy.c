@@ -59,10 +59,8 @@ void get_local_ip(char *ip) {
     char buffer[INET_ADDRSTRLEN];
     struct hostent *host_entry;
 
-    // Get the local host name
     gethostname(buffer, sizeof(buffer));
 
-    // Get host information
     host_entry = gethostbyname(buffer);
 
     if (host_entry == NULL) {
@@ -70,7 +68,6 @@ void get_local_ip(char *ip) {
         exit(EXIT_FAILURE);
     }
 
-    // Convert the IP address to string
     strcpy(ip, inet_ntoa(*((struct in_addr *)host_entry->h_addr_list[0])));
 }
 
