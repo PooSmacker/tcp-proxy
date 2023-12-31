@@ -17,8 +17,17 @@ Just copy and paste each step below.
 6.  gcc -o proxy proxy.c -ljson-c -lcurl
 ```
 
+# OR
 
-    
+1. Make the setup script runable
+```bash
+chmod +x setup_proxy.sh
+```
+2. Run the setup script and enter the info.
+```bash
+./setup_proxy.sh
+```
+  
 ## Usage
 
 How to use:
