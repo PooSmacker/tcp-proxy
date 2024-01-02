@@ -1,11 +1,11 @@
 {
     "settings": {
-        "frontend_port": port you want the proxy to be run on
+        "frontend_port": PORT_HERE
     },
     "proxied_host": {
         "general_settings": {
-            "backend_ip": "your backend ip",
-            "backend_port": backend port,
+            "backend_ip": "BACKEND_HERE",
+            "backend_port": BACKEND_PORT_HERE,
             "optional_note": "backend_port should be the port that the net backend is screened on"
         }
     }
