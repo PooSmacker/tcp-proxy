@@ -4,6 +4,7 @@ sudo apt update
 sudo apt upgrade -y
 
 sudo apt-get install -y libjson-c-dev libcurl4-openssl-dev
+sudo apt-get gcc -y
 
 read -p "Enter Backend IP: " backend_ip
 read -p "Enter Backend Port: " backend_port
