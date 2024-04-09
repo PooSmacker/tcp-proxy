@@ -17,6 +17,16 @@ Just copy and paste each step below.
 6.  gcc -o proxy proxy.c -ljson-c -lcurl
 ```
 
+## Usage
+
+How to use:
+
+```bash
+1.  edit your config to include the port you would like to listen on, your backend ip and your backend port.
+2.  to run type ./proxy config.json
+
+```
+
 # OR
 
 1. Make the setup script runable
@@ -28,13 +38,5 @@ chmod +x setup_proxy.sh
 ./setup_proxy.sh
 ```
   
-## Usage
 
-How to use:
-
-```bash
-1.  edit your config to include the port you would like to listen on, your backend ip and your backend port.
-2.  to run type ./proxy config.json
-
-```
 
